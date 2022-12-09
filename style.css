@@ -1,0 +1,208 @@
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+}
+.window{
+    width: 50px;
+    height: 15px;
+    background-color: skyblue;
+    left: 130px;
+    top: 55px;
+    border-radius: 100%;
+    position: relative;
+}
+.spyglass1{
+    width: 7px;
+    height: 25px;
+    background-color: black;
+    left: 90px;
+    top: 15px;
+    position: relative;
+}
+.spyglass2{
+    width: 20px;
+    height: 7px;
+    background-color: black;
+    left: 90px;
+    top: -10px;
+    position: relative;
+}
+.spyglass3{
+    width: 10px;
+    height: 7px;
+    background-color: skyblue;
+    left: 105px;
+    top: -17px;
+    border-radius: 100%;
+    position: relative;
+}
+.banan{
+    width: 200px;
+    height: 40px;
+    background-color: yellow;
+    left:100px;
+    top:100px;
+    border-radius: 100%;
+}
+.wheel1{
+    width: 20px;
+    height: 20px;
+    background-color: slategray;    
+    left: 140px;
+    top: 18px;
+    border-radius: 100%;
+    position: relative;
+    animation-name: wheel;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes wheel {
+0%{
+transform:rotate(0deg);
+}
+100%{
+transform:rotate(360deg);
+}
+}
+.wheel2{
+    width: 20px;
+    height: 20px;
+    background-color: slategray;    
+    left: 100px;
+    top: 0px;
+    border-radius: 100%;
+    position: relative;
+    border-radius: 100%;
+    position: relative;
+    animation-name: wheel;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes wheel {
+0%{
+transform:rotate(0deg);
+}
+100%{
+transform:rotate(360deg);
+}
+}
+.wheel3{
+    width: 20px;
+    height: 20px;
+    background-color: slategray;    
+    left: 55px;
+    top: -20px;
+    border-radius: 100%;
+    position: relative;
+    animation-name: wheel;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes wheel {
+0%{
+transform:rotate(0deg);
+}
+100%{
+transform:rotate(360deg);
+}
+}
+.miniwindow1{
+    width: 15px;
+    height: 15px;
+    background-color: skyblue;
+    left: 105px;
+    top: -92px;
+    border-radius: 100%;
+    position: relative;
+}
+.miniwindow2{
+    width: 15px;
+    height: 15px;
+    background-color: skyblue;
+    left: 75px;
+    top: -105px;
+    border-radius: 100%;
+    position: relative;
+}
+.miniwindow3{
+    width: 15px;
+    height: 15px;
+    background-color: skyblue;
+    left: 50px;
+    top: -120px;
+    border-radius: 100%;
+    position: relative;
+}
+.blade1{
+    width: 7px;
+    height: 20px;
+    background-color: black;
+    left: 30px;
+    top: -112px;
+    position: relative;
+}
+.blade2{
+    width: 20px;
+    height: 5px;
+    background-color: black;
+    left: 15px;
+    top: -116px;
+    position: relative;
+}
+.blade3{
+    width: 7px;
+    height: 20px;
+    background-color: slategrey;
+    left: 10px;
+    top: -128px;
+    position: relative;
+    animation-name: wheel;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes wheel {
+0%{
+transform:rotate(0deg);
+}
+100%{
+transform:rotate(360deg);
+}
+}
+.stick1{
+    width: 7px;
+    height: 35px;
+    background-color: black;
+    left: 147px;
+    top: -155px;
+    position: relative;
+}
+.stick2{
+    width: 7px;
+    height: 35px;
+    background-color: black;
+    left: 106px;
+    top: -187px;
+    position: relative;
+}
+.stick3{
+    width: 7px;
+    height: 35px;
+    background-color: black;
+    left: 61px;
+    top: -223px;
+    position: relative;
+}
+.light{
+    width: 10px;
+    height: 7px;
+    background-color: orangered;
+    left: 189px;
+    top: -277px;
+    border-radius: 100%;
+    position: relative;
+}
